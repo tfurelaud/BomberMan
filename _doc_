@@ -1,0 +1,47 @@
+Lancement du serveur:
+
+si on a pas les droits, faire la commande suivante:
+chmod a+x bomber_server.py
+
+puis lancer le serveur avec:
+./bomber_server.py 7777
+pour le port 7777
+
+
+
+Lancement des clients:
+
+chmod a+x bomber_client.py
+
+./bomber_client.py localhost 7777 LaMereDeFaugas
+
+
+https://www.supinfo.com/articles/single/1232-reseau-python
+
+
+
+
+
+###################################################
+#############   A FAIRE ABSOLUMENT   ##############
+###################################################
+
+    - Si un perso crash, le perso reste sur le serveur
+    
+    
+    
+    
+    - Commenter le code
+    - effacer les prints jugé inutiles pour un jeu propre
+    
+
+
+
+
+
+####################################################
+#############       BONUS       ####################
+####################################################
+
+    - Lorsqu'un nouveau joueur choisis le pseudo d'un joueur existant, le jeu quitte avec un erreur au lieu de quitter proprement avec un message
+    - gerer l'authentification en cas de reconnection d'un joueur avec un même pseudo? (lorsqu'un joueur quitte, on enregistre
