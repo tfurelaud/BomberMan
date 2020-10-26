@@ -10,7 +10,7 @@ This is a simple "Bomber Man" game written in Python 3, based on the *PyGame* li
 First clone the project available on GitHUB under GPL:
 
 ```
-  $ git clone https://github.com/orel33/bomber
+  git clone https://github.com/tfurelaud/BomberMan
 ```
 
 To install Python (root privilege required):
@@ -48,12 +48,3 @@ To play, just use the following keys:
 
 The implementation of this game follows a simple MVC architecture (Model/View/Controller).
 
-## Known Bugs ##
-
-There is a [known bug](https://github.com/pygame/pygame/issues/331) in the *pygame.mixer* module, which causes high CPU usage, when calling *pygame.init()*. A workaround is to disable the mixer module, *pygame.mixer.quit()* or not to enable it, by using *pygame.display.init()* and *pygame.font.init()* instead. Consequently, there is no music, no sound :-(
-
-## Documentation ##
-
-  * https://www.pygame.org
-  * https://openclassrooms.com/courses/interface-graphique-PyGame-pour-python/tp-dk-labyrinthe
-  * http://ezide.com/games/writing-games.html
